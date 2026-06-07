@@ -166,100 +166,111 @@ footer {
     padding: 20px;
     margin-top: 50px;
 }
-/* Pricing Section */
+/* IDP Pricing Section Base */
 .pricing {
-    background-color: #121212;
+    background-color: #0b1320; /* A hnuai phek thim deuh hlek kha */
     padding: 60px 20px;
     text-align: center;
 }
 .pricing h2 {
-    color: #fff;
+    color: #00d2ff; /* A thupui rawng pawl eng kha */
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
 }
 .pricing .section-sub {
-    color: #aaa;
+    color: #a0aec0;
     margin-bottom: 40px;
-    font-size: 14px;
+    font-size: 15px;
 }
 .pricing-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 25px;
-    max-width: 1100px;
-    margin: 0 auto;
+    padding: 10px;
 }
-.price-card {
-    background: #1e1e1e;
-    border: 1px solid #2d2d2d;
-    padding: 35px 25px;
-    width: 280px;
-    border-radius: 12px;
-    position: relative;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-    text-align: center;
-}
-/* Standard Plan chei bikna */
-.price-card.popular {
-    border-color: #ff6600;
-    transform: scale(1.03);
-}
-.badge {
-    position: absolute;
-    top: -12px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #ff6600;
-    color: #fff;
-    padding: 4px 12px;
-    font-size: 11px;
-    font-weight: bold;
+
+/* IDP Elite Card Layout */
+.idp-card {
+    background: #111c2e;
+    border: 1px solid #1e2e4a;
+    padding: 40px 25px;
+    width: 100%;
+    max-width: 340px;
     border-radius: 20px;
-    text-transform: uppercase;
-}
-.price-card h3 {
-    color: #fff;
-    margin-top: 10px;
-    font-size: 22px;
-}
-.price-card .price {
-    font-size: 32px;
-    font-weight: bold;
-    color: #ff6600;
-    margin: 20px 0;
-}
-.price-card ul {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 30px 0;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
     text-align: left;
 }
-.price-card ul li {
-    color: #ccc;
+.package-title {
+    color: #2ee575; /* Rawng hring eng mawi tak kha */
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+    letter-spacing: 0.5px;
+}
+.package-desc {
+    color: #a0aec0;
     font-size: 14px;
-    margin-bottom: 12px;
-    position: relative;
-    padding-left: 20px;
+    line-height: 1.5;
+    margin-bottom: 25px;
 }
-.price-card ul li::before {
-    content: "✓";
-    position: absolute;
-    left: 0;
-    color: #ff6600;
-    font-weight: bold;
+.price-section {
+    margin-bottom: 20px;
 }
-/* Package Button-te */
-.price-btn {
+.mrp {
+    color: #718096;
+    font-size: 14px;
     display: block;
-    background: transparent;
-    color: #ff6600;
-    border: 2px solid #ff6600;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
-    transition: background 0.3s;
+    margin-bottom: 2px;
 }
-.price-btn:hover, .price-btn.active {
-    background: #ff6600;
-    color: #fff;
+.actual-price {
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+/* Expected Earning Green Badge */
+.earning-badge {
+    background: rgba(46, 229, 117, 0.12);
+    color: #2ee575;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 1px solid rgba(46, 229, 117, 0.2);
+}
+
+/* IDP Buttons Design */
+.idp-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.btn-enroll {
+    display: block;
+    background: linear-gradient(90deg, #00b4db, #0083b0); /* Pawl eng blend kha */
+    color: #ffffff;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 15px rgba(0, 180, 219, 0.3);
+}
+.btn-chat {
+    display: block;
+    background: #2ee575; /* A hnuai button hring kha */
+    color: #ffffff;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 15px rgba(46, 229, 117, 0.3);
 }
