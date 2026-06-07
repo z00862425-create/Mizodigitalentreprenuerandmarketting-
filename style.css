@@ -9,24 +9,32 @@ body {
 }
 
 /* Header */
+/* Header */
 header {
     background: #111;
     color: #fff;
-    padding: 20px;
+    padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap; /* Phone-ah a tawt lutuk loh nan */
 }
 header .logo {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     color: #ff6600;
+}
+header nav {
+    display: flex;
+    gap: 12px; /* Menu inkar hlat zawng */
 }
 header nav a {
     color: #fff;
     text-decoration: none;
-    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
 }
+
 
 /* Hero Section */
 .hero {
