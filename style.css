@@ -1,4 +1,6 @@
-/* Base Styles */
+/* ==========================================================================
+   1. BASE STYLES & FONTS
+   ========================================================================== */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -8,7 +10,9 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Header */
+/* ==========================================================================
+   2. HEADER & NAVIGATION
+   ========================================================================== */
 header {
     background: #111;
     color: #fff;
@@ -34,7 +38,9 @@ header nav a {
     font-weight: 400;
 }
 
-/* Hero Section */
+/* ==========================================================================
+   3. HERO SECTION
+   ========================================================================== */
 .hero {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=500') no-repeat center center/cover;
     color: #fff;
@@ -55,23 +61,25 @@ header nav a {
     margin-top: 20px;
 }
 
-/* Services Section Background */
+/* ==========================================================================
+   4. SERVICES SECTION
+   ========================================================================== */
 .services {
     background-color: #121212;
     padding: 60px 20px;
     text-align: center;
 }
-
-/* Services container */
+.services h2 {
+    color: #fff;
+    margin-bottom: 30px;
+}
 .service-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
-
-/* Cards */
 .card {
     background: #1e1e1e;
     padding: 30px 25px;
@@ -80,6 +88,7 @@ header nav a {
     border: 1px solid #2d2d2d;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
+    text-align: center;
 }
 .card:hover {
     transform: translateY(-5px);
@@ -95,7 +104,9 @@ header nav a {
     line-height: 1.6;
 }
 
-/* Insights Section */
+/* ==========================================================================
+   5. INSIGHTS / BLOG SECTION
+   ========================================================================== */
 .insights {
     background-color: #1a1a1a;
     padding: 60px 20px;
@@ -148,8 +159,6 @@ header nav a {
     line-height: 1.6;
     margin: 0;
 }
-
-/* Post Thlalak Siamremna */
 .post-img {
     width: 100%;
     height: 180px;
@@ -158,53 +167,37 @@ header nav a {
     margin-bottom: 15px;
 }
 
-/* Footer */
-footer {
-    background: #111;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    margin-top: 50px;
-}
-/* IDP Pricing Section Base */
-.pricing {
-    background-color: #0b1320; /* A hnuai phek thim deuh hlek kha */
-    padding: 60px 20px;
-    text-align: center;
-}
-./* IDP Pricing Section Base */
+/* ==========================================================================
+   6. IDIGITALPREPRENEUR PRICING SECTION (Fiah Fai Thlap Chuan)
+   ========================================================================== */
 .pricing {
     background-color: #0b1320; 
-    padding: 60px 20px;
+    padding: 80px 20px; 
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-/* He lai tlar hnih hi va thlak rawh */
 .pricing h2 {
-    color: #00d2ff !important; /* !important hian a tihluihna th thlapin a ti eng dawn a ni */
-    font-size: 24px;
+    color: #00d2ff !important; 
+    font-size: 26px;
     font-weight: 700;
     letter-spacing: 1px;
-    margin: 0 0 10px 0;
-    display: block;
+    margin: 0 0 10px 0 !important;
+    display: block !important;
 }
 .pricing .section-sub {
     color: #a0aec0 !important;
-    margin-bottom: 40px;
     font-size: 15px;
-    display: block;
-}
-{
-    color: #a0aec0;
-    margin-bottom: 40px;
-    font-size: 15px;
+    margin: 0 0 40px 0 !important;
+    display: block !important;
 }
 .pricing-container {
     display: flex;
     justify-content: center;
+    width: 100%;
     padding: 10px;
 }
-
-/* IDP Elite Card Layout */
 .idp-card {
     background: #111c2e;
     border: 1px solid #1e2e4a;
@@ -216,7 +209,7 @@ footer {
     text-align: left;
 }
 .package-title {
-    color: #2ee575; /* Rawng hring eng mawi tak kha */
+    color: #2ee575; 
     font-size: 24px;
     font-weight: 700;
     margin: 0 0 15px 0;
@@ -242,8 +235,6 @@ footer {
     font-size: 38px;
     font-weight: 700;
 }
-
-/* Expected Earning Green Badge */
 .earning-badge {
     background: rgba(46, 229, 117, 0.12);
     color: #2ee575;
@@ -255,8 +246,6 @@ footer {
     margin-bottom: 30px;
     border: 1px solid rgba(46, 229, 117, 0.2);
 }
-
-/* IDP Buttons Design */
 .idp-buttons {
     display: flex;
     flex-direction: column;
@@ -264,7 +253,7 @@ footer {
 }
 .btn-enroll {
     display: block;
-    background: linear-gradient(90deg, #00b4db, #0083b0); /* Pawl eng blend kha */
+    background: linear-gradient(90deg, #00b4db, #0083b0); 
     color: #ffffff;
     text-align: center;
     padding: 14px;
@@ -277,7 +266,7 @@ footer {
 }
 .btn-chat {
     display: block;
-    background: #2ee575; /* A hnuai button hring kha */
+    background: #2ee575; 
     color: #ffffff;
     text-align: center;
     padding: 14px;
@@ -287,4 +276,14 @@ footer {
     border-radius: 10px;
     letter-spacing: 0.5px;
     box-shadow: 0 4px 15px rgba(46, 229, 117, 0.3);
+}
+
+/* ==========================================================================
+   7. FOOTER
+   ========================================================================== */
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
 }
