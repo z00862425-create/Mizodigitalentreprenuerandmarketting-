@@ -1,6 +1,6 @@
 /* Base Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -9,7 +9,6 @@ body {
 }
 
 /* Header */
-/* Header */
 header {
     background: #111;
     color: #fff;
@@ -17,7 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; /* Phone-ah a tawt lutuk loh nan */
+    flex-wrap: wrap;
 }
 header .logo {
     font-size: 22px;
@@ -26,7 +25,7 @@ header .logo {
 }
 header nav {
     display: flex;
-    gap: 12px; /* Menu inkar hlat zawng */
+    gap: 12px;
 }
 header nav a {
     color: #fff;
@@ -34,7 +33,6 @@ header nav a {
     font-size: 14px;
     font-weight: 400;
 }
-
 
 /* Hero Section */
 .hero {
@@ -57,10 +55,9 @@ header nav a {
     margin-top: 20px;
 }
 
-/* Services */
 /* Services Section Background */
 .services {
-    background-color: #121212; /* A hnuai phek thim hret */
+    background-color: #121212;
     padding: 60px 20px;
     text-align: center;
 }
@@ -70,57 +67,35 @@ header nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 25px; /* Bawm inkar zau zawng */
+    gap: 25px;
     margin-top: 40px;
 }
 
-/* Bawm mawi tak mai (Premium Dark Card) */
+/* Cards */
 .card {
-    background: #1e1e1e; /* Bawm chhung rawng a hnuai aia a eng deuh hret tur a ni */
+    background: #1e1e1e;
     padding: 30px 25px;
     width: 290px;
-    border-radius: 12px; /* A kil bial mawi tawh zawk */
-    border: 1px solid #2d2d2d; /* A tlang tlar te reuh te */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* A thla (Shadow) rawn tla thla tur */
-    transition: transform 0.3s ease; /* Kan khawih huna a rawn chet hêm hêmna tur */
+    border-radius: 12px;
+    border: 1px solid #2d2d2d;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
 }
-
-/* Phone-a kan hmeh huna a rawn "awn" deuh hlekna tur */
 .card:hover {
     transform: translateY(-5px);
 }
-
 .card h3 {
     color: #ff6600;
     margin-bottom: 15px;
     font-size: 20px;
 }
-
 .card p {
-    color: #ccc; /* A chhunga thu in-tlar rawng hi deuh hlek */
+    color: #ccc;
     font-size: 14px;
     line-height: 1.6;
 }
 
-}
-
-/* Footer */
-footer {
-    background: #111;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    margin-top: 50px;
-}
-/* Base Styles */
-body {
-    font-family: 'Poppins', sans-serif; /* Arial kha 'Poppins' hian thlak rawh */
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
-}/* Insights Section */
+/* Insights Section */
 .insights {
     background-color: #1a1a1a;
     padding: 60px 20px;
@@ -173,13 +148,21 @@ body {
     line-height: 1.6;
     margin: 0;
 }
+
 /* Post Thlalak Siamremna */
 .post-img {
     width: 100%;
     height: 180px;
-    object-fit: cover; /* Thlalak a ruan chhiat loh nan */
+    object-fit: cover;
     border-radius: 6px;
     margin-bottom: 15px;
 }
 
-
+/* Footer */
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
