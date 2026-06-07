@@ -173,5 +173,13 @@ body {
     line-height: 1.6;
     margin: 0;
 }
+/* Post Thlalak Siamremna */
+.post-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; /* Thlalak a ruan chhiat loh nan */
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
 
 
