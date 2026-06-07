@@ -172,14 +172,28 @@ footer {
     padding: 60px 20px;
     text-align: center;
 }
+./* IDP Pricing Section Base */
+.pricing {
+    background-color: #0b1320; 
+    padding: 60px 20px;
+    text-align: center;
+}
+/* He lai tlar hnih hi va thlak rawh */
 .pricing h2 {
-    color: #00d2ff; /* A thupui rawng pawl eng kha */
+    color: #00d2ff !important; /* !important hian a tihluihna th thlapin a ti eng dawn a ni */
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 1px;
-    margin-bottom: 5px;
+    margin: 0 0 10px 0;
+    display: block;
 }
 .pricing .section-sub {
+    color: #a0aec0 !important;
+    margin-bottom: 40px;
+    font-size: 15px;
+    display: block;
+}
+{
     color: #a0aec0;
     margin-bottom: 40px;
     font-size: 15px;
