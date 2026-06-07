@@ -58,26 +58,50 @@ header nav a {
 }
 
 /* Services */
+/* Services Section Background */
 .services {
-    padding: 50px 20px;
+    background-color: #121212; /* A hnuai phek thim hret */
+    padding: 60px 20px;
     text-align: center;
 }
+
+/* Services container */
 .service-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
-    margin-top: 30px;
+    gap: 25px; /* Bawm inkar zau zawng */
+    margin-top: 40px;
 }
+
+/* Bawm mawi tak mai (Premium Dark Card) */
 .card {
-    background: #fff;
-    padding: 20px;
-    width: 280px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background: #1e1e1e; /* Bawm chhung rawng a hnuai aia a eng deuh hret tur a ni */
+    padding: 30px 25px;
+    width: 290px;
+    border-radius: 12px; /* A kil bial mawi tawh zawk */
+    border: 1px solid #2d2d2d; /* A tlang tlar te reuh te */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* A thla (Shadow) rawn tla thla tur */
+    transition: transform 0.3s ease; /* Kan khawih huna a rawn chet hêm hêmna tur */
 }
+
+/* Phone-a kan hmeh huna a rawn "awn" deuh hlekna tur */
+.card:hover {
+    transform: translateY(-5px);
+}
+
 .card h3 {
     color: #ff6600;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.card p {
+    color: #ccc; /* A chhunga thu in-tlar rawng hi deuh hlek */
+    font-size: 14px;
+    line-height: 1.6;
+}
+
 }
 
 /* Footer */
