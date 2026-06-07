@@ -194,9 +194,14 @@ header nav a {
 }
 .pricing-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Phone-ah pakhat hnuah pakhat an in-tlar thlakna tur */
+    align-items: center;
+    gap: 30px; /* Bawm pahnih te inkar danna hmun awl */
     width: 100%;
     padding: 10px;
+    box-sizing: border-box;
+}
+
 }
 .idp-card {
     background: #111c2e;
